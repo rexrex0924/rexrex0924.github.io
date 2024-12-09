@@ -1,1 +1,83 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Page Example</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            main {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Static Page</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This is a simple example of a static HTML page.  It demonstrates basic HTML structure, including a header, main content area, and footer.  It also includes some simple CSS styling for basic visual presentation.</p>
+        </section>
+
+        <section>
+            <h2>Another Section</h2>
+            <p>You can add more sections to your page as needed.  Each section can contain different content, such as text, images, or other elements.</p>
+        </section>
+    
+    </main>
+    <button class="toggle-chatbox">AI 助理</button>
+    <script id="ImportChatbotScript" src="https://chatbot.fit.com.hk:8003/chatbox_test/javascripts/import_chatbot_new.js?appid=fef480b5-0b69-4f71-a421-b201c3611a25&bot=7-new&VoiceInput=1&lang=chinese"></script>
+
+</body>
+</html>
